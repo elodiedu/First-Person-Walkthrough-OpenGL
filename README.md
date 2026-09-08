@@ -7,7 +7,8 @@ The 2D viewing perspective is produced through a 3D view matrix and projection m
 
 The projection matrix is defined using a viewing frustum, which specifies the horizontal and vertical field of view as well as the near and far clipping planes, thereby determining the visible region of the rendered 3D scene.
 
-The width and height of the final rendered image is adjustable according to the window frame size.
+The dimensions of the final rendered image are dynamically adjusted according to the size of the application window.
+
 
 **Rendered Cathedral from example model
 
